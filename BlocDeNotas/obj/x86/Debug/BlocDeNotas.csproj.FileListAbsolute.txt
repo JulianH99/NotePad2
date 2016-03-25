@@ -1,0 +1,12 @@
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\bin\Debug\BlocDeNotas.exe
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\bin\Debug\BlocDeNotas.pdb
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\obj\x86\Debug\MainWindow.baml
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\obj\x86\Debug\App.g.cs
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\obj\x86\Debug\BlocDeNotas_MarkupCompile.cache
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\obj\x86\Debug\BlocDeNotas.g.resources
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\obj\x86\Debug\BlocDeNotas.Properties.Resources.resources
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\obj\x86\Debug\BlocDeNotas.csproj.GenerateResource.Cache
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\obj\x86\Debug\BlocDeNotas.exe
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\obj\x86\Debug\BlocDeNotas.pdb
+C:\Users\Julitos\Documents\Projects\BlocDeNotas\BlocDeNotas\obj\x86\Debug\BlocDeNotas.Form1.resources

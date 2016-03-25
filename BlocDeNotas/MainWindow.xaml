@@ -1,0 +1,40 @@
+﻿<Window x:Class="BlocDeNotas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Notepad 2" Height="522" Width="660" Icon="/BlocDeNotas;component/icononotepad.png.ico">
+    <Grid>
+        <Menu VerticalAlignment="Top" Height="25" FontFamily="Lucida Sans" FontSize="13" Background="DodgerBlue" Foreground="White">
+            <MenuItem Header="Arhivo" Height="25">
+                <MenuItem Header="Nuevo" Name="nuevoarch" Click="nuevoarch_Click" Foreground="Black"/>
+                <MenuItem Header="Abrir..." Name="AbrirArch" Click="AbrirArch_Click" Foreground="Black"/>
+                <MenuItem Header="Guardar" Name="guardarbtn" Click="guardarbtn_Click" Foreground="Black"/>
+                <MenuItem Header="Guardar como..." Name="GuardarComo" Click="GuardarComo_Click" Foreground="Black"/>
+                <Separator/>
+                <MenuItem Header="Imprimir" Name="imprimirpage" Click="imprimirpage_Click" Foreground="Black" />
+                <Separator/>
+                <MenuItem Header="Salir" Name="exitapp" Click="exitapp_Click" Foreground="Black"/>
+            </MenuItem>
+            <MenuItem Header="Editar">
+                <MenuItem Header="Copiar" Name="copiarbtn" Click="copiarbtn_Click" Foreground="Black"/>
+                <MenuItem Header="Cortar" Name="cortarbtn" Click="cortarbtn_Click" Foreground="Black"/>
+                <MenuItem Header="Pegar" Name="pegarbtn" Click="pegarbtn_Click" Foreground="Black" />
+                <MenuItem Header="Eliminar" Name="eliminarbtn" Click="eliminarbtn_Click" Foreground="Black"/>
+                <Separator/>
+                <MenuItem Header="Seleccionar todo" Name="selectallbtn" Click="selectallbtn_Click" Foreground="Black"/>
+                <Separator/>
+                <MenuItem Header="Hora/Fecha" Name="date_time" Click="date_time_Click" Foreground="Black"/>
+
+            </MenuItem>
+            <MenuItem Header="Vista">
+                <MenuItem Header="Word wrap" Name="wordw" Checked="wordw_Checked" Unchecked="wordw_Unchecked" IsCheckable="True" Foreground="Black"/>
+                <MenuItem Header="Fuente" Name="fuentebtn" Click="fuentebtn_Click" Foreground="Black"/>
+                <MenuItem Header="Color de fondo" Name="color_fbtn" Click="color_fbtn_Click" Foreground="Black"/>
+            </MenuItem>
+            <MenuItem Header="Acerca de" Name="Abourbtn" Click="Abourbtn_Click">
+            </MenuItem>
+        </Menu>
+        <TextBox Name="mainbox" Margin="0,24,0,0" AcceptsTab="True" AllowDrop="True" FontFamily="Lucida Console" FontSize="14" IsReadOnly="False" TextWrapping="NoWrap" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" AcceptsReturn="True" BorderBrush="AntiqueWhite" Padding="3,3,3,0">
+            
+        </TextBox>
+    </Grid>
+</Window>
